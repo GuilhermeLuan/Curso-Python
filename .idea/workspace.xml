@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="598a4c17-999c-4d33-b000-6bee40835957" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercícios/Mundo 2/Ex67.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercícios/Mundo 2/Ex68.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercícios/Mundo 2/Ex69.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercícios/Mundo 2/Ex70.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercícios/Mundo 2/Ex71.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercícios/Mundo 3/Ex72.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercícios/Mundo 3/Ex73.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercícios/Mundo 3/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios/Mundo 2/Ex66.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercícios/Mundo 2/Ex66.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Python_Curso$main.coverage" NAME="main Coverage Results" MODIFIED="1572025648223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Curso" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex51.coverage" NAME="Ex51 Coverage Results" MODIFIED="1572189751040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex58_b.coverage" NAME="Ex58_b Coverage Results" MODIFIED="1572108496168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex45.coverage" NAME="Ex45 Coverage Results" MODIFIED="1571867341132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios" />
+    <SUITE FILE_PATH="coverage/Python_Curso$test.coverage" NAME="test Coverage Results" MODIFIED="1579639909244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 3" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex54.coverage" NAME="Ex54 Coverage Results" MODIFIED="1572050031451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex71.coverage" NAME="Ex71 Coverage Results" MODIFIED="1572394752685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Aula_14.coverage" NAME="Aula#14 Coverage Results" MODIFIED="1572101729309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Curso" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex60.coverage" NAME="Ex60 Coverage Results" MODIFIED="1572189313638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Aula_16b.coverage" NAME="Aula#16b Coverage Results" MODIFIED="1572462133839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Curso" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex68.coverage" NAME="Ex68 Coverage Results" MODIFIED="1572218090228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Aula_16a.coverage" NAME="Aula#16a Coverage Results" MODIFIED="1579636442571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Curso" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex46.coverage" NAME="Ex46 Coverage Results" MODIFIED="1572028768946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex72.coverage" NAME="Ex72 Coverage Results" MODIFIED="1575144740895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 3" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex69.coverage" NAME="Ex69 Coverage Results" MODIFIED="1572221000032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex66.coverage" NAME="Ex66 Coverage Results" MODIFIED="1572213360107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex_56.coverage" NAME="Ex#56 Coverage Results" MODIFIED="1572026937382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex63.coverage" NAME="Ex63 Coverage Results" MODIFIED="1572200525621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex48.coverage" NAME="Ex48 Coverage Results" MODIFIED="1572030583762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex57.coverage" NAME="Ex57 Coverage Results" MODIFIED="1572103325161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex67.coverage" NAME="Ex67 Coverage Results" MODIFIED="1572215209901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Aula_16c.coverage" NAME="Aula#16c Coverage Results" MODIFIED="1572462316281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Curso" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex61.coverage" NAME="Ex61 Coverage Results" MODIFIED="1572190782624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex64.coverage" NAME="Ex64 Coverage Results" MODIFIED="1572202863949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex73.coverage" NAME="Ex73 Coverage Results" MODIFIED="1575144693289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 3" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex55.coverage" NAME="Ex55 Coverage Results" MODIFIED="1572051184824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex58.coverage" NAME="Ex58 Coverage Results" MODIFIED="1572108288300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex52.coverage" NAME="Ex52 Coverage Results" MODIFIED="1572046397669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex63_b.coverage" NAME="Ex63_b Coverage Results" MODIFIED="1572201615748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex70.coverage" NAME="Ex70 Coverage Results" MODIFIED="1572382527751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex59.coverage" NAME="Ex59 Coverage Results" MODIFIED="1572111448934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$wordlist_generator.coverage" NAME="wordlist-generator Coverage Results" MODIFIED="1572131222241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex49.coverage" NAME="Ex49 Coverage Results" MODIFIED="1572031376382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex62.coverage" NAME="Ex62 Coverage Results" MODIFIED="1572199375775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex50.coverage" NAME="Ex50 Coverage Results" MODIFIED="1572032687893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex65.coverage" NAME="Ex65 Coverage Results" MODIFIED="1572378274831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex56.coverage" NAME="Ex56 Coverage Results" MODIFIED="1572186792446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios/Mundo 2" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Aula_15.coverage" NAME="Aula#15 Coverage Results" MODIFIED="1572208910925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Curso" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex47.coverage" NAME="Ex47 Coverage Results" MODIFIED="1572029655154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios" />
+    <SUITE FILE_PATH="coverage/Python_Curso$Ex53.coverage" NAME="Ex53 Coverage Results" MODIFIED="1572047873807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercícios" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Python-Curso" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Exercícios/Mundo 3/Ex78.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Exercícios/Mundo 3/Ex76.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectId" id="1ZAcUaAuH45bOUteYEnkkPTdBmL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Debugger" />
+    <property name="settings.editor.splitter.proportion" value="0.25688073" />
+  </component>
+  <component name="RunManager" selected="Python.Ex83">
+    <configuration name="Ex79" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Curso" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercícios/Mundo 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercícios/Mundo 3/Ex79.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex80" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Curso" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercícios/Mundo 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercícios/Mundo 3/Ex80.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex81" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Curso" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercícios/Mundo 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercícios/Mundo 3/Ex81.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex82" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Curso" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercícios/Mundo 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercícios/Mundo 3/Ex82.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex83" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Curso" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercícios/Mundo 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercícios/Mundo 3/Ex83.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Ex79" />
+      <item itemvalue="Python.Ex80" />
+      <item itemvalue="Python.Ex81" />
+      <item itemvalue="Python.Ex82" />
+      <item itemvalue="Python.Ex83" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Ex83" />
+        <item itemvalue="Python.Ex82" />
+        <item itemvalue="Python.Ex81" />
+        <item itemvalue="Python.Ex80" />
+        <item itemvalue="Python.Ex79" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="598a4c17-999c-4d33-b000-6bee40835957" name="Default Changelist" comment="" />
+      <created>1571867299022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571867299022</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Exercícios novos">
+      <created>1572208982637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572208982637</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Exercícios novos">
+      <created>1572209722857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572209722857</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercícios novos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercícios novos" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="178" key="#Inspections" timestamp="1584546286574">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="872" y="178" key="#Inspections/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584546286574" />
+    <state x="537" y="357" key="FileChooserDialogImpl" timestamp="1584393781863">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="537" y="357" key="FileChooserDialogImpl/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584393781863" />
+    <state width="1274" height="298" key="GridCell.Tab.0.bottom" timestamp="1584644735726">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1274" height="298" key="GridCell.Tab.0.bottom/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584644735726" />
+    <state width="1274" height="298" key="GridCell.Tab.0.center" timestamp="1584644735726">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1274" height="298" key="GridCell.Tab.0.center/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584644735726" />
+    <state width="1274" height="298" key="GridCell.Tab.0.left" timestamp="1584644735726">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1274" height="298" key="GridCell.Tab.0.left/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584644735726" />
+    <state width="1274" height="298" key="GridCell.Tab.0.right" timestamp="1584644735726">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1274" height="298" key="GridCell.Tab.0.right/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584644735726" />
+    <state width="2539" height="347" key="GridCell.Tab.1.bottom" timestamp="1584322826432">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2539" height="347" key="GridCell.Tab.1.bottom/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584322826432" />
+    <state width="2539" height="347" key="GridCell.Tab.1.center" timestamp="1584322826432">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2539" height="347" key="GridCell.Tab.1.center/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584322826432" />
+    <state width="2539" height="347" key="GridCell.Tab.1.left" timestamp="1584322826432">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2539" height="347" key="GridCell.Tab.1.left/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584322826432" />
+    <state width="2539" height="347" key="GridCell.Tab.1.right" timestamp="1584322826432">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2539" height="347" key="GridCell.Tab.1.right/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584322826432" />
+    <state x="278" y="168" key="SettingsEditor" timestamp="1584635969746">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="278" y="168" key="SettingsEditor/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584635969746" />
+    <state x="981" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584285365322">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="981" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584285365322" />
+    <state x="2560" y="0" width="1936" height="1027" key="dock-window-1" timestamp="1584322479502">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2560" y="0" width="1936" height="1027" key="dock-window-1/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1584322479502" />
+  </component>
+</project>
