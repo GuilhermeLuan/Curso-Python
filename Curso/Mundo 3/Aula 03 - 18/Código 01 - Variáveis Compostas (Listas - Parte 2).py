@@ -11,6 +11,7 @@ pessoas = [['Pedro', 25], ['Maria', 19], ['João', 32]]
 [2][0] = 'João'
 [2][1] = 32
 """
+
 pessoal = list()  # Cria uma nova lista vazia "pessoal"
 dados = ['Pedro', 25]  # Cria uma lista "dados" com uma string e um número inteiro
 pessoal.append(dados[:])  # Adiciona todos os itens de "dados" a "pessoal", criando uma lista dentro da outra (composta)
