@@ -1,7 +1,7 @@
 # Curso Python - Curso em vídeo !
 
 ### Anotações das Aulas, Desafios Resolvidos e Exercícios Corrigidos
-Olá, esses são os meus aquivos sobre o curso.Fique à vontade de usá-los.
+Olá, esses são os meus aquivos sobre o curso. Fique à vontade de usá-los.
 
 Mundo 1 - Fundamentos: http://www.cursoemvideo.com/course/curso-python-3/
 
