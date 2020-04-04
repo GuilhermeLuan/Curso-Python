@@ -5,14 +5,13 @@ B) A soma dos valores da terceira coluna. X
 C) O maior valor da segunda linha. X
 '''
 
-lista = [[], []]
-matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [], []]
 
 for linha in range(0, 3):
     for coluna in range(0, 3):
         matriz[linha][coluna] = int(input(f'Digite um valor para [{linha}, {coluna}]: '))
         if matriz[linha][coluna] % 2 == 0:
-            lista[0].append(matriz[linha][coluna])
+            matriz[3].append(matriz[linha][coluna])
             
 print(30*'=')
 for l in range(0, 3):
@@ -21,9 +20,8 @@ for l in range(0, 3):
     print()
 print(30*'=')
 
-print(f'A soma dos valores pares é {sum(lista[0])}')
+print(f'A soma dos valores pares é {sum(matriz[3])}')
 for c in range(0, 3):
-    lista[1].append(matriz[c][2])
-
-print(f' A soma dos valores da terceira coluna é {sum(lista[1])}')
+    matriz[4].append(matriz[c][2])
+print(f'A soma dos valores da terceira coluna é {sum(matriz[4])}')
 print(f'O maior valor da segunda linha é {max(matriz[1])}')
