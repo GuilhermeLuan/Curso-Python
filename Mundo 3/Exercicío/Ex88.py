@@ -5,24 +5,26 @@ O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números e
 '''
 from time import sleep
 from random import randint
-jogos = []
+numeros = []
 temp = []
 
 print(30*'-')
 print(f'{"JOGA NA MEGA SENA":^30}')
 print(30*'-')
-
-num = int(input('Quantos jogos você quer que eu sorteie? '))
-
-print(10*'-', f'{f"Sorteando {num} jogos":^5}', 10*'-')
-
-for a in range(1, num + 1):
-    for c in range(1, 7):
-        n = randint(1, 60)
-        temp.append(n)
-    jogos.append(temp[:])
+jogos = int(input('Quantos jogos você quer que eu sorteie? '))
+print(10*'-', f'{f"Sorteando {jogos} jogos":^5}', 10*'-')
+for c in range(1, jogos+1):
+    cont = 0
+    while True:
+        num = randint(1, 60)
+        if num not in temp:
+            temp.append(num)
+            cont += 1
+        if cont >= 6:
+            break
+    temp.sort()
+    numeros.append(temp[:])
     temp.clear()
-cont = 0
-for nu in range(0, num):
-    cont += 1
-    print(f'Jogo {cont}: {jogos[nu]}')
+for i, l in enumerate(numeros):
+    print(f'Jogos {i + 1}: {l}')
+    sleep(0.2)
