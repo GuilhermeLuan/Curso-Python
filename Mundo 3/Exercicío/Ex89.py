@@ -10,7 +10,7 @@ while True:
     for c in range(1, 3):
         nota = float(input(f'Nota {c}: '))
         temp.append(nota)
-
+        
     lista.append(temp[:])
     temp.clear()
 
