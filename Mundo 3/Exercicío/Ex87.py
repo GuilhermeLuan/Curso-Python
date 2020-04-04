@@ -13,7 +13,7 @@ for linha in range(0, 3):
         matriz[linha][coluna] = int(input(f'Digite um valor para [{linha}, {coluna}]: '))
         if matriz[linha][coluna] % 2 == 0:
             lista[0].append(matriz[linha][coluna])
-
+            
 print(30*'=')
 for l in range(0, 3):
     for c in range(0, 3):
@@ -24,6 +24,6 @@ print(30*'=')
 print(f'A soma dos valores pares é {sum(lista[0])}')
 for c in range(0, 3):
     lista[1].append(matriz[c][2])
-
+    
 print(f' A soma dos valores da terceira coluna é {sum(lista[1])}')
 print(f'O maior valor da segunda linha é {max(matriz[1])}')
