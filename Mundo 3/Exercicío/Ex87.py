@@ -1,5 +1,5 @@
 '''
-Exercício Python 087: Aprimore o desafio anterior, mostrando no final: 
+Exercício Python 087: Aprimore o desafio anterior, mostrando no final:  
 A) A soma de todos os valores pares digitados.
 B) A soma dos valores da terceira coluna.
 C) O maior valor da segunda linha.
@@ -24,6 +24,6 @@ print(30*'=')
 print(f'A soma dos valores pares é {sum(lista[0])}')
 for c in range(0, 3):
     lista[1].append(matriz[c][2])
-    
+
 print(f' A soma dos valores da terceira coluna é {sum(lista[1])}')
 print(f'O maior valor da segunda linha é {max(matriz[1])}')
