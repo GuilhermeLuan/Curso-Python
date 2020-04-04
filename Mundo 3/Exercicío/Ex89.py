@@ -9,11 +9,12 @@ while True:
     nota1 = float(input(f'Nota 1: '))
     nota2 = float(input(f'Nota 2: '))
     media = (nota1 + nota2 ) / 2
-    lista.append([nome, [nota1, nota2], media])        
-    continuar = str(input('Quer continuar ? [S/N]'))[0].upper().strip()
+    lista.append([nome, [nota1, nota2], media])
+    while continuar not in 'SN':
+        continuar = str(input('Quer continuar ? [S/N]'))[0].upper().strip()
     if continuar == 'N':
         break
-print(lista)
+    
 print(25*'-')
 print(f'{"No.":^3} {"NOME":^10} {"MÉDIA":^5}')
 
