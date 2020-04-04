@@ -14,13 +14,13 @@ while True:
         continuar = str(input('Quer continuar ? [S/N]'))[0].upper().strip()
     if continuar == 'N':
         break
-    
-print(25*'-')
-print(f'{"No.":^3} {"NOME":^10} {"MÉDIA":^5}')
 
-print(20*'-')
-for i, l in enumerate(lista):
-    print(f'{i:^3} {lista[i][0]:^10} {lista[i][2]:^5} ')
+print(25*'-')
+print(f'{"No.":<4} {"NOME":<10} {"MÉDIA":>8}')
+
+print(26*'-')
+for i, a in enumerate(lista):
+    print(f'{i:<4} {a[0]:<10} {a[2]:>8.1f}')
 print(50*'-')
 
 while True:
