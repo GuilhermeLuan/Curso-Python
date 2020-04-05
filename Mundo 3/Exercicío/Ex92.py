@@ -10,9 +10,9 @@ dados['Ano'] = int(input("Ano de Nascimento: "))
 dados['Idade'] = date.today().year - dados['Ano']
 dados['Ctps'] = int(input("Carteina de Trabalho (0 não tem): "))
 
-if dados['Ctps'] > 0:
+if dados['Ctps'] != 0:
     dados['Contratação'] = int(input('Ano de Contratacão: '))
-    dados['Salário'] = float(input('Salário: '))
+    dados['Salário'] = float(input('Salário: R$: '))
     dados['aponsetadoria'] = (dados['Contratação'] - dados['Ano']) + 35
 
 del dados['Ano']
