@@ -25,7 +25,7 @@ while True:
         lista.append(dados)
         if continuar not in 'SN':
             print('ERRO! Por favor, digite apenas S ou N.')
-
+            
     if continuar == 'N':
         break
 
