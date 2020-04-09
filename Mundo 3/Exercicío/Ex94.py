@@ -5,7 +5,7 @@ B) A média de idade
 C) Uma lista com as mulheres
 D) Uma lista de pessoas com idade acima da média
 '''
-media = 0
+f = media = 0
 lista = []
 while True:
     continuar = ' '
@@ -15,6 +15,8 @@ while True:
 
     while dados['Sexo'] not in 'MF':
         dados['Sexo'] = str(input('Sexo: [M/F] ')).upper().strip()[0]
+        if dados['Sexo'] == 'F':
+            f += 1
         if dados['Sexo'] not in 'MF':
             print('ERRO! Por favor, digite apenas M ou F.')
 
@@ -36,6 +38,9 @@ print(30*"-=")
 print(f'A) Ao todos temos {len(lista)} pessoas cadastradas')
 print(f'B) A média de idade é de {media / len(lista):.2f}')
 print(f'C) As mulheres cadastradas foram ',end='')
+if f == 0:
+    print(' Nenhuma mulher foi registada! ')
+
 for e in lista:
     if e['Sexo'] == 'F':
         print(f'{e["Nome"]}', end=' ')
