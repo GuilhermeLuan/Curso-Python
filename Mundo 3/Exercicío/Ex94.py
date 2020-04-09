@@ -44,8 +44,6 @@ print()
 print(f'D) Listas das pessoas que estão acima da média: ')
 
 for e in lista:
-    for k, v in e.items():
-        if e['idade'] > media / len(lista):
-            print(f'{k} = {v}: ',end='')
-    print()
-print('FIM')
+    if e['idade'] > media / len(lista):
+        print(f'Nome = {e["Nome"]}: Sexo = {e["Sexo"]}: Idade = {e["idade"]}')
+print(f'{"<<< FIM >>>":^50}')
