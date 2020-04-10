@@ -27,7 +27,7 @@ print(30*'-=')
 
 print(f"{'cod':>10} {'Nome':>10} {'Gols':>10} {'Total':>10}")
 for k, v in enumerate(time):
-    print(f"{k:>10} {v['Nome']:^10}  {str(v['Gols']):^10} {v['Total']:^10}")
+    print(f"{k:^10} {v['Nome']:^10}  {str(v['Gols']):^10} {v['Total']:^10}")
 
 while True:
     show = int(input('Mostrar dados de qual jogador? (999 para parar)'))
