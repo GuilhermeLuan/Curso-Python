@@ -16,4 +16,4 @@ Olá, esses é um projeto de estudo baseado no curso de Python do [Curso em Víd
 - [ ] Mundo 4 - AINDA NÃO ESTÁ DISPONÍVEL 
 
 ### Criador 
-O criador do curso foi o @gustavoganabara do [Curso em Vídeo](https://www.youtube.com/cursoemvideo)
+O criador do curso foi o **Gustavo Ganabara** do [Curso em Vídeo](https://www.youtube.com/cursoemvideo)
