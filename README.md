@@ -14,3 +14,5 @@ Olá, esses é um projeto de estudo baseado no curso de Python do [Curso em Víd
 - [x] Mundo 2
 - [ ] Mundo 3 - Ainda não terminei o modulo
 - [ ] Mundo 4 - AINDA NÃO ESTÁ DISPONÍVEL 
+
+# O criador do curso foi o Gustavo Ganabara do [Curso em Vídeo](https://www.youtube.com/cursoemvideo)
