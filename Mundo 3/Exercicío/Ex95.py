@@ -23,16 +23,21 @@ while True:
     if continuar == 'N':
         break
     
-print(30*'-=')
+print(25*'-=')
 
-print(f"{'cod':>10} {'Nome':>10} {'Gols':>10} {'Total':>10}")
+print(f"{'cod':<4} {'Nome':<15} {'Gols':^15} {'Total':>10}")
 for k, v in enumerate(time):
-    print(f"{k:^10} {v['Nome']:^10}  {str(v['Gols']):^10} {v['Total']:^10}")
+    print(f"{k:<4} {v['Nome']:<15}  {str(v['Gols']):^15} {v['Total']:^10}")
 
+print(25*'-=')
 while True:
     show = int(input('Mostrar dados de qual jogador? (999 para parar)'))
     if show == 999:
         break
-    print(f'-- LEVANTAMENTO DO JOGADOR {time[show]["Nome"]}')
+    try:
+        print(f'-- LEVANTAMENTO DO JOGADOR {time[show]["Nome"]}')
+    except:
+        print('ERRO! Esse jogador não foi registrado no banco de dados!')
+
     for k, v in enumerate(time[show]['Gols']):
         print(f'    No jogo {k + 1} fez {v} gols')
