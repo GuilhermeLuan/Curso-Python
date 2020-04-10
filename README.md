@@ -1,7 +1,7 @@
 # Curso Python - Curso em vídeo !
 
 ### Anotações das Aulas, Desafios Resolvidos e Exercícios Corrigidos
-Olá, esses é um projeto de estudo baseado no curso Python do Curso em Vídeo.
+Olá, esses é um projeto de estudo baseado no curso de Python do [Curso em Vídeo](https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ).
 
 [Mundo 1 - Fundamentos](http://www.cursoemvideo.com/course/curso-python-3/)
 
