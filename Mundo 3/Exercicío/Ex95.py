@@ -14,6 +14,8 @@ while True:
 
     while continuar not in 'SN':
         continuar = str(input('Quer continuar? [S/N] '))[0].upper().strip()
+        if continuar not in 'SN':
+            print('ERRO! Digite apenas S/N')
 
     dados['Gols'] = gols
     dados['Total'] = sum(gols)
@@ -28,7 +30,7 @@ print(25*'-=')
 print(f"{'cod':<4} {'Nome':<15} {'Gols':^15} {'Total':>10}")
 print(50*'-')
 for k, v in enumerate(time):
-    print(f"{k:<4} {v['Nome']:<15}  {str(v['Gols']):^15} {v['Total']:^10}")
+    print(f"{k:<4} {v['Nome']:<15}  {str(v['Gols']):^15} {v['Total']:^13}")
 
 print(50*'-')
 while True:
