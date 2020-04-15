@@ -4,18 +4,19 @@ a) de 1 até 10, de 1 em 1
 b) de 10 até 0, de 2 em 2
 c) uma contagem personalizada
 '''
-def contador(início, fim, meio):
+def contador(início, fim, passo):
     print(30*'-')
-    print(f'Contagem de {início} ate {fim} de {meio} em {meio}')
-    meio = abs(meio) if meio != 0 else 1
+    print(f'Contagem de {início} ate {fim} de {passo} em {passo}')
+    passo = abs(passo) if passo != 0 else 1
 
     if início < fim:
-        for n in range(início, fim + 1, meio):
+        for n in range(início, fim + 1, passo):
             print(n, end=' ')
-
+            
     if início > fim:
-        for n in range(início, fim + 1, -meio):
+        for n in range(início, fim - 1, -passo):
             print(n, end=' ')
+        
     print('FIM')
     print(30*'-')
 
