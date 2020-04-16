@@ -27,4 +27,5 @@ def contador(início, fim, passo):
 contador(1, 10, 1)
 contador(10, 0, -2)
 
+print('Agpra é sua vez de personalizar a contagem! ')
 contador(int(input('Início: ')), int(input('Fim: ')), int(input('Passo: ')))
