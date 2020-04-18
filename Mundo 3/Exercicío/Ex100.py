@@ -3,7 +3,6 @@ Exercício Python 100: Faça um programa que tenha uma lista chamada números e 
 '''
 from random import randint
 from time import sleep
-
 números = []
 def sorteia():
     for n in range(0, 5):
@@ -14,7 +13,11 @@ def sorteia():
         sleep(0.3)
     print('PRONTO!')
 
-
-
+def somaPar():
+    par = []
+    for n in números:
+        if n % 2 == 0:
+            par.append(n)
+    print(f'Somandos os valores pares de {números}, temos {sum(par)}')
 sorteia()
-print(números)
+somaPar()
