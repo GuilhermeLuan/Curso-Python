@@ -13,11 +13,11 @@ def sorteia():
     print('PRONTO!')
 
 def somaPar():
-    par = []
+    par = 0
     for n in números:
         if n % 2 == 0:
-            par.append(n)
-    print(f'Somandos os valores pares de {números}, temos {sum(par)}')
+            par += n
+    print(f'Somandos os valores pares de {números}, temos {par}')
 
 números = []
 sorteia()
