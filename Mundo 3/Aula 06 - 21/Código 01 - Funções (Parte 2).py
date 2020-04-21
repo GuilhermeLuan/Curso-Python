@@ -20,6 +20,7 @@
 
 # help(contador)
 
+
 def contador(i, f, p):
     #As docstrings começam aqui:
     """ 
