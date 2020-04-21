@@ -15,5 +15,6 @@ def voto(msg):
     else:
         return 'VOTO OBRIGATÓRIO'
 
+#Programa principal
 pergunta = int(input('Em que ano você nasceu? '))
 print(voto(pergunta))
