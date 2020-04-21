@@ -20,6 +20,9 @@ def factorial(n, show=False):
                 print(' = ', end='')
     return f
     
-print(factorial(5))
-print(30*'=')
-print(factorial(5, True))
+num = int(input('Qual número deseja saber o factorial?'))
+opcao = int(input('Digite 1(um) caso queira ver o calculo: '))
+if opcao == 1:
+    print(factorial(num, True))
+else:
+    print(factorial(num))
