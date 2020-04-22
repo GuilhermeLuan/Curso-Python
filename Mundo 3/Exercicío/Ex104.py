@@ -6,15 +6,16 @@ Ex: n = leiaInt('Digite um n: ')
 def leiaInt(num=''):
     global n
     n = ''
-    pergunta = input(num)
-    pergunta.strip()
-
+    pergunta = input(num).strip()
     n = pergunta
-    if pergunta.isnumeric() == False:
+
+    while n.isnumeric() == False:
         print('ERRO! Digite um número inteiro válido.')
-        while pergunta.isnumeric() == False:
-            return input(num)
-        
+        validação = input(num).strip()
+        if validação.isnumeric() == True:
+            return validação
+    else:
+        return n
 
 n = leiaInt('Digite um número: ')
 print(f'Você acabou de digitar o número: {n}')
