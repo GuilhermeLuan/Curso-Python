@@ -12,7 +12,7 @@ def factorial(n, show=False):
     f = 1
     for c in range(n, 0, -1):
         f *= c
-        if show == True:
+        if show:
             print(c, end='')
             if c > 1:
                 print(' X ', end='')
@@ -23,6 +23,8 @@ def factorial(n, show=False):
 num = int(input('Qual número deseja saber o factorial?'))
 opcao = int(input('Digite 1(um) caso queira ver o calculo: '))
 if opcao == 1:
+    print(f'O factorial de {num}:')
     print(factorial(num, True))
 else:
+    print(f'O factorial de {num}:')
     print(factorial(num))
