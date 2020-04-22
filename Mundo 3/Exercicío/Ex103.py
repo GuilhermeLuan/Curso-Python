@@ -9,6 +9,6 @@ def ficha(nome='<desconhecido>', gols='0'):
         nome = '<desconhecido>'
     return f'O jogador {nome} fez {gols} gol(s) no campeonato.'
 
-n = str(input('Nome do jogador: '))
+n = str(input('Nome do jogador: ')).strip()
 g = str(input('Número de Gols: '))
 print(ficha(n,g))
