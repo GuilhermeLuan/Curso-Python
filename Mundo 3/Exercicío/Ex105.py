@@ -15,11 +15,8 @@ def notas(*num, sit=False):
     :param sit: valor opciona, indicando se deve ou não adcionar a situação
     :return: dicionário com várias infromações sobre a situação da turma.
     '''
-    notas = {}
-    notas['total'] = len(num)
-    notas['maior'] = max(num)
-    notas['menor'] = min(num)
-    notas['média'] = sum(num) / len(num)
+    notas = {'total': len(num), 'maior': max(num),
+    'menor': min(num), 'média': sum(num) / len(num)}
     if sit:
         if notas['média'] < 5:
             situacão = 'RUIM'
