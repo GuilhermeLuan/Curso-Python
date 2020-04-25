@@ -12,7 +12,7 @@ def notas(*num, sit=False):
     '''
     -> Função para analisar notas e situações de vários alunos.
     :param n: um ou mais notas dos alunos (aceita várias)
-    :param sit: valor opciona, indicando se deve ou não adcionar a situação
+    :param sit: valor opcional, indicando se deve ou não adcionar a situação
     :return: dicionário com várias infromações sobre a situação da turma.
     '''
     notas = {'total': len(num), 'maior': max(num),
