@@ -5,14 +5,13 @@ from time import sleep
 
 
 def linha(msg='', cor='', apenas_cor=False):
-    cores = {"limpa": "\033[m", "azul": "\033[7;36m", "roxo": "\033[7;35m",
-             "negrito": "\033[1m", "branco": "\033[7m", "verde": "\033[7;32m",
-             "amarelo": "\033[33m", "vermelho": "\033[7;31m"}
+    cores = {"limpa": "\033[m", "azul": "\033[7;36m", "branco": "\033[7m", "verde": "\033[7;32m",
+             "vermelho": "\033[7;31m"}
 
     if apenas_cor:
         print(cores[cor])
     else:
-        tam = len(msg) + 2
+        tam = len(msg) + 4
         print(f"{cores[cor]}=" * tam)
         print(f'{msg.center(tam)}')
         print(f'=' * tam)
