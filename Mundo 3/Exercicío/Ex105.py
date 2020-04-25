@@ -18,12 +18,12 @@ def notas(*num, sit=False):
     notas = {'total': len(num), 'maior': max(num),
     'menor': min(num), 'média': sum(num) / len(num)}
     if sit:
-        if notas['média'] < 5:
-            situacão = 'RUIM'
-        if 7 > notas['média'] > 6:
+        if notas['média'] >= 5:
             situacão = 'RAZOÁVEL'
-        if notas['média'] > 7:
+        if notas['média'] >= 7:
             situacão = 'BOA'
+        else:
+            situacão = 'RUIM'
         notas['situação'] = situacão
     return notas
 
