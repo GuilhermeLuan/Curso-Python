@@ -23,7 +23,7 @@ while True:
     opcao = str(input('Função ou Biblioteca (Fim para sair.) > '))
     if opcao.upper().strip() == 'FIM':
         break
-    linha('Acessando o manual do comando', 'azul')
+    linha(f'Acessando o manual do comando {opcao}', 'azul')
     sleep(1)
     linha(cor='branco', apenas_cor=True)
     help(opcao)
