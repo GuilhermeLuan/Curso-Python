@@ -5,14 +5,9 @@ from time import sleep
 
 
 def linha(msg='', cor='', apenas_cor=False):
-    cores = {"limpa": "\033[m",
-             "azul": "\033[7;36m",
-             "roxo": "\033[7;35m",
-             "negrito": "\033[1m",
-             "branco": "\033[7m",
-             "verde": "\033[7;32m",
-             "amarelo": "\033[33m",
-             "vermelho": "\033[7;31m"}
+    cores = {"limpa": "\033[m", "azul": "\033[7;36m", "roxo": "\033[7;35m",
+             "negrito": "\033[1m", "branco": "\033[7m", "verde": "\033[7;32m",
+             "amarelo": "\033[33m", "vermelho": "\033[7;31m"}
 
     if apenas_cor:
         print(cores[cor])
@@ -27,7 +22,7 @@ def linha(msg='', cor='', apenas_cor=False):
 while True:
     linha('Sistema de ajuda PyHelp', 'verde')
     opcao = str(input('Função ou Biblioteca (Fim para sair.) > '))
-    if opcao .upper() == 'FIM':
+    if opcao.upper().strip() == 'FIM':
         break
     linha('Acessando o manual do comando', 'azul')
     sleep(1)
