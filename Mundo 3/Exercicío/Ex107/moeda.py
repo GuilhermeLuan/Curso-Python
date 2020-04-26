@@ -4,16 +4,20 @@
 
 
 def dobro(v):
-    return v * 2
+    res = v * 2
+    return res
 
 
 def metade(v):
-    return v / 2
+    res = v / 2
+    return res
 
 
-def aumentar(v):
-    return v + (v * 10/100)
+def aumentar(v, taxa):
+    res = v + (v * taxa/100)
+    return res
 
 
-def diminuir(v):
-    return v - (v * 10/100)
+def diminuir(v, taxa):
+    res = v - (v * taxa/100)
+    return res
