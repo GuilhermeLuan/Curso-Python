@@ -7,7 +7,6 @@ def dobro(v):
     return v * 2
 
 
-
 def metade(v):
     return v / 2
 
@@ -18,4 +17,3 @@ def aumentar(v):
 
 def diminuir(v):
     return v - (v * 10/100)
-
