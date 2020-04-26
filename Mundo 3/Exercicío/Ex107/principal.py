@@ -3,5 +3,7 @@
 # Faça também um programa que importe esse módulo e use algumas dessas funções.
 import moeda
 
-preco = float(input('Digite um preço: R$'))
-moeda.aumentar(preco)
+price = float(input('Digite um preço: R$'))
+print(f'A metade de {price} é R${moeda.metade(price)}')
+print(f'O dobro de R${price} é R${moeda.dobro(price)}')
+print(f'O dobro de R${price} é R${moeda.aumentar(price)}')
