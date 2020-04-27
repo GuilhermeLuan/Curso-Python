@@ -4,32 +4,24 @@
 
 
 
-def dobro(v=0, form=False):
+def dobro(v=0, formato=False):
     res = v * 2
-    if form:
-        return formatacao(res)
-    return res
+    return res if formato is False else formatacao(res)
 
 
-def metade(v=0, form=False):
+def metade(v=0, formato=False):
     res = v / 2
-    if form:
-        return formatacao(res)
-    return res
+    return res if formato is False else formatacao(res)
 
 
-def aumentar(v=0, taxa=0, form=False):
+def aumentar(v=0, taxa=0, formato=False):
     res = v + (v * taxa/100)
-    if form:
-        return formatacao(res)
-    return res
+    return res if formato is False else formatacao(res)
 
 
-def diminuir(v=0, taxa=0, form=False):
+def diminuir(v=0, taxa=0, formato=False):
     res = v - (v * taxa/100)
-    if form:
-        return formatacao(res)
-    return res
+    return res if formato is False else formatacao(res)
 
 
 def formatacao(v=0, moeda='R$'):
