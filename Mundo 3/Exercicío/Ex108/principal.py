@@ -1,10 +1,9 @@
-# Exercício Python 107
-# Crie um módulo chamado moeda.py que tenha as funções incorporadas aumentar(), diminuir(), dobro() e metade().
-# Faça também um programa que importe esse módulo e use algumas dessas funções.
+# Exercício Python 108
+# Adapte o código do desafio #107, criando uma função adicional chamada moeda() que consiga mostrar os números como um valor monetário formatado.
 
 import moeda
 
 price = float(input('Digite um preço: R$'))
-print(f'A metade de {price} é R${moeda.metade(price)}')
-print(f'O dobro de R${price} é R${moeda.dobro(price)}')
-print(f'Aumentando 10%, temos R${moeda.aumentar(price, 10)}')
+print(f'A metade de {moeda.formatacao(price)} é {moeda.formatacao(moeda.metade(price))}')
+print(f'O dobro de {moeda.formatacao(price)} é {moeda.formatacao(moeda.dobro(price))}')
+print(f'Aumentando 10%, temos {moeda.formatacao(moeda.aumentar(price, 10))}')
