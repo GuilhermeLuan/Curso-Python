@@ -4,12 +4,12 @@
 # que seja capaz de funcionar como a função imputa(),
 # mas com uma validação de dados para aceitar apenas valores que sejam monetários
 
+
 def leiaDinheiro(valor):
     while True:
-        n = str(input(valor)).strip()
-        if ',' in n or '.' in n or n.isnumeric():
-            n = f'{n}'.replace(',', '.')
-            valor = float(n)
-            return valor
+        n = str(input(valor)).strip().replace(',', '.')
+        if n.isalpha() or n.strip() == '':
+            print(f'ERRO: {n} é um preço inválido! ')
         else:
-            print(f'ERRO:{n} é um preço inválido! ')
+            return float(n)
+
