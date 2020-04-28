@@ -7,6 +7,5 @@
 from utilidadescev import moeda
 from utilidadescev import dado
 
-#price = float(input('Digite um preço: R$'))
 price = dado.leiaDinheiro('Digite o preço: R$')
 moeda.resumo(price, 20, 12)
