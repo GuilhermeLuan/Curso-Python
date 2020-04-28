@@ -8,7 +8,7 @@
 def leiaDinheiro(valor):
     while True:
         n = str(input(valor)).strip().replace(',', '.')
-        if n.isalpha() or n.strip() == '':
+        if n.isalpha() or n == '':
             print(f'ERRO: {n} é um preço inválido! ')
         else:
             return float(n)
