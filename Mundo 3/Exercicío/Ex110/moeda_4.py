@@ -60,7 +60,13 @@ def formatacao(v=0, moeda='R$'):
     """
     return f'{moeda}{v:.2f}'.replace('.', ',')
 
-def resumo(v=0, aumenta=0, diminui=0):
+def resumo(v=0, aumenta=10, diminui=5):
+    """
+        -> Realiza formatação do valor passado para dinheiro
+        :param v: Valor digitado
+        :param aumenta: Aumenta em um percentagem X
+        :param diminui: Diminui em um percentagem Y
+    """
     print(30*'-')
     print(f"{'RESUMO DO VALOR':^30}")
     print(30 * '-')
