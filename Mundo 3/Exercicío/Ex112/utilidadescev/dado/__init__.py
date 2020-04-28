@@ -12,4 +12,3 @@ def leiaDinheiro(valor):
             print(f'ERRO: {n} é um preço inválido! ')
         else:
             return float(n)
-
