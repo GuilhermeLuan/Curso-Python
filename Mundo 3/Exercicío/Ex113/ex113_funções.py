@@ -6,30 +6,28 @@ Aproveite e crie também uma função leiaFloat() com a mesma funcionalidade.
 
 
 def leiaInt(msg):
-    ok = False
-    valor = 0
     while True:
-        n = str(input(msg)).strip()
         try:
-            valor = int(n)
-            ok = True
-        except ValueError:
-            print('ERRO! Digite um número inteiro válido')
-        if ok:
-            break
-    return valor
+            n = int(input(msg))
+        except (ValueError, TypeError):
+            print('\033[31mERRO! Digite um número inteiro válido.\033[m')
+            continue
+        except KeyboardInterrupt:
+            print('\n\033[31mERROEntrada de dados interrompida pelo usuário\033[m')
+            return 0
+        else:
+            return n
 
 
 def leiaFloat(msg):
-    ok = False
-    valor = 0
     while True:
-        n = str(input(msg)).strip()
         try:
-            valor = float(n)
-            ok = True
+            n = float(input(msg))
         except ValueError:
-            print('ERRO! Digite um número real válido')
-        if ok:
-            break
-    return valor
+            print('\033[31mERRO! Digite um número inteiro válido.\033[m')
+            continue
+        except KeyboardInterrupt:
+            print('\n\033[31mERROEntrada de dados interrompida pelo usuário\033[m')
+            return 0
+        else:
+            return n

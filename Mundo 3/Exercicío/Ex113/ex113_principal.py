@@ -5,6 +5,6 @@ Aproveite e crie também uma função leiaFloat() com a mesma funcionalidade.
 """
 import ex113_funções as função
 
-inteiro = função.leiaInt('Digite um número inteiro: ')
-real = função.leiaFloat('Digite um número real: ')
-print(f'O valor inteiro digitado foi {inteiro} e o real foi {real}')
+n1 = função.leiaInt('Digite um número inteiro: ')
+n2 = função.leiaFloat('Digite um número real: ')
+print(f'O valor inteiro digitado foi {n1} e o real foi {n2} ')
