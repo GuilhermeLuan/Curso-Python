@@ -33,8 +33,3 @@ def leiaFloat(msg):
         if ok:
             break
     return valor
-
-
-inteiro = leiaInt('Digite um número inteiro: ')
-real = leiaFloat('Digite um número real: ')
-print(f'O valor inteiro digitado foi {inteiro} e o real foi {real}')
