@@ -1,5 +1,5 @@
 # Exercício Python 115a: Vamos criar um menu em Python, usando modularização.
-
+from time import sleep
 
 def text(msg='', txt=True):
     if txt:
@@ -12,32 +12,35 @@ def text(msg='', txt=True):
 
 def menu_principal():
     text('MENU PRINCIPAL')
-    print('1 - Ver pessoas cadastradas')
-    print('2 - Cadastrar nova Pessoa')
-    print('3 - Sair do sistema', flush=True)
+    print('\033[34m1 - Ver pessoas cadastradas\033[m')
+    print('\033[34m2 - Cadastrar nova Pessoa\033[m')
+    print('\033[34m3 - Sair do sistema\033[m', flush=True)
     text(txt=False)
 
 
 def start_interface():
-    from time import sleep
     menu_principal()
+    validation()
+
+
+def validation():
     while True:
         try:
-            escolha = int(input('Sua opção: '))
-            if escolha == 3:
-                text('Saindo do sistema... Até logo!')
-                quit()
+            escolha = int(input('\033[32mSua opção: \033[m'))
         except (TypeError, ValueError):
-            print('ERRO: por favor, digite um número inteiro válido.', flush=False)
+            print('\033[31mERRO: por favor, digite um número inteiro válido.\033[m', flush=False)
             sleep(0.3)
         else:
-            if escolha > 3:
-                print('ERRO: por favor, digite opção válida.', flush=False)
-                sleep(0.3)
-                menu_principal()
             if escolha == 1:
                 text('OPÇÃO 1')
                 sleep(0.3)
-            if escolha == 2:
+            elif escolha == 2:
                 text('OPÇÃO 2')
                 sleep(0.3)
+            elif escolha == 3:
+                text('Saindo do sistema... Até logo!')
+                quit()
+            elif escolha <= 0 or escolha > 3:
+                print('\033[31mERRO: por favor, digite opção válida.\033[m', flush=False)
+                sleep(0.3)
+                menu_principal()
