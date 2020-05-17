@@ -17,11 +17,11 @@ def leia(msg):
 
 def text(msg='', txt=True):
     if txt:
-        print(30 * '-')
-        print(f'{msg}'.center(30))
-        print(30 * '-', flush=False)
+        print(40 * '-')
+        print(f'{msg}'.center(40))
+        print(40 * '-', flush=False)
     else:
-        print(30 * '-')
+        print(40 * '-')
 
 
 def menu(lista):
@@ -33,5 +33,3 @@ def menu(lista):
     text(txt=False)
     opcão = leia('\033[32mSua opção: \033[m')
     return opcão
-
-

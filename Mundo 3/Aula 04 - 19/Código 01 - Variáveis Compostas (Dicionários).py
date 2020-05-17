@@ -1,4 +1,4 @@
-"""
+w"""
 Tuplas: () - Parênteses
 Listas: [] - Colchetes
 Dicionários: {} - Chaves

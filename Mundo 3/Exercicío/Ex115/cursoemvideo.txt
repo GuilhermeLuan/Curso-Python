@@ -1,3 +1,8 @@
-Guilherme;15
-Pedro;19
-Cleiton;20
+Guilherme
+20
+Cleiton
+30
+Renata soares
+13
+Cleiton
+50
