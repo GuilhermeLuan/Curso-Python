@@ -12,7 +12,7 @@ Olá, esses é um projeto de estudo baseado no curso de Python do [Curso em Víd
 ### Progresso no curso
 - [x] Mundo 1
 - [x] Mundo 2
-- [ ] Mundo 3 - Ainda não terminei o modulo
+- [X] Mundo 3 
 - [ ] Mundo 4 - AINDA NÃO ESTÁ DISPONÍVEL 
 
 ### Criador 
